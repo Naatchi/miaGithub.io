@@ -2,3 +2,12 @@
     background-image: url("https://mineinabyss.com/assets/images/render/mia_render.jpg");
     background-size: cover;
 }
+
+.foo {
+    background-size: auto 1038px;
+    background-repeat: repeat-x;
+    width: 100%;
+    position:absolute;
+    background-position: bottom center;
+    height: 1000px;
+}

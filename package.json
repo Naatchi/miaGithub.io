@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.4.2",
+    "@n8tb1t/use-scroll-position": "^2.0.3",
     "@react-spring/parallax": "^9.4.4",
+    "@rehooks/window-scroll-position": "^1.0.1",
     "@tailwindcss/forms": "^0.2.1",
     "@types/react": "^17.0.38",
     "autoprefixer": "^10.1.0",
