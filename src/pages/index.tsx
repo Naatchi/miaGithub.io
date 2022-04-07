@@ -35,7 +35,7 @@ export default function Home() {
                     {
                         array.map(a => {
                             return (
-                                <div style={{backgroundImage: `url(${a.url})`, transform: `translateY(${scrollY*a.pr}px)`}} className={styles.foo}/>
+                                <div style={{backgroundImage: `url(${a.url})`, transform: `translateY(${scrollY*a.pr}px)` }} className={styles.foo}/>
                             )
                         })
                     }
