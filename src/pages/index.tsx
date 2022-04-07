@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
-import styles from '../styles/styles.module.css'
+console.log('import complete?')
+
 
 export default function Home() {
     const [scrollY, setScrollY] = useState(0)
@@ -35,7 +36,18 @@ export default function Home() {
                     {
                         array.map(a => {
                             return (
-                                <div style={{backgroundImage: `url(${a.url})`, transform: `translateY(${scrollY*a.pr}px)` }} className={styles.foo}/>
+                                <div
+                                    style={{
+                                        backgroundImage: `url(${a.url})`,
+                                        transform: `translateY(${scrollY*a.pr}px)`,
+                                        backgroundSize: 'auto 1038px',
+                                        backgroundRepeat:'repeat-x',
+                                        width: '100%',
+                                        position: 'absolute',
+                                        backgroundPosition: 'bottom center',
+                                        height: '1000px'
+                                    }}
+                                />
                             )
                         })
                     }
