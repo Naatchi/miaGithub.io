@@ -32,6 +32,17 @@ export default function Home() {
     return (
         <>
             <section id="wrapper" style={{backgroundColor: '#FFAF1B'}}>
+                <section className="p-2">
+                    <a>
+                        hello! this is a test site that i am using to test <br/>
+                        parallax utilizing nextjs!<br/>
+                        if you would like to see the repository <br/>
+                        for this website
+                        <a href="https://github.com/Naatchi/miaGithub.io" className="text-blue-600 hover:underline"> click here! </a> <br/>
+                        none of this art belongs to me i am just using it <br/>
+                        for testing right now and it will be phased out soon <br/>
+                    </a>
+                </section>
                 <section id="parallax">
                     {
                         array.map(a => {
@@ -40,7 +51,7 @@ export default function Home() {
                                     style={{
                                         backgroundImage: `url(${a.url})`,
                                         transform: `translateY(${scrollY*a.pr}px)`,
-                                        backgroundSize: 'auto 1038px',
+                                        backgroundSize: 'auto 1000px',
                                         backgroundRepeat:'repeat-x',
                                         width: '100%',
                                         position: 'absolute',
@@ -52,7 +63,14 @@ export default function Home() {
                         })
                     }
                 </section>
-                <section id="site" style={{position: 'relative', paddingTop: 1000}}>
+                <section id="site">
+                    <section id="abyss-1" style={{height: 2000, paddingTop: 1000}}>
+                        <div id="bg-container" className="relative h-screen" style={{backgroundColor: '#280003'}}>
+                            <div id="text-container" className="text-6xl text-white">
+                                {`ScrollY-raw-val: ${scrollY}`}
+                            </div>
+                        </div>
+                    </section>
                 </section>
             </section>
         </>
