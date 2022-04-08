@@ -33,14 +33,14 @@ export default function Home() {
         <>
             <section id="wrapper" style={{backgroundColor: '#FFAF1B'}}>
                 <section className="p-2">
-                    <a>
+                    <a className="text-black">
                         hello! this is a test site that i am using to test <br/>
                         parallax utilizing nextjs!<br/>
                         if you would like to see the repository <br/>
                         for this website
-                        <a href="https://github.com/Naatchi/miaGithub.io" className="text-blue-600 hover:underline"> click here! </a> <br/>
-                        none of this art belongs to me i am just using it <br/>
-                        for testing right now and it will be phased out soon <br/>
+                        <a href="https://github.com/Naatchi/miaGithub.io" className="text-blue-600 hover:underline" title="source-code"> click here! </a> <br/>
+                        all art belongs to <a href="https://www.camposanto.com/" className="text-blue-600 hover:underline" title="Campo-santo's website!"> campo santo </a> and <br/>
+                        comes directly from <a href="https://www.firewatchgame.com/" className="text-blue-600 hover:underline" title="firewatch game website!"> the firewatchgame website </a>
                     </a>
                 </section>
                 <section id="parallax">
