@@ -32,13 +32,13 @@ export default function Home() {
     return (
         <>
             <section id="wrapper" style={{backgroundColor: '#FFAF1B'}}>
-                <section className="p-2">
+                <section style={{padding: 2}}>
                     <a>
                         hello! this is a test site that i am using to test <br/>
                         parallax utilizing nextjs!<br/>
                         if you would like to see the repository <br/>
                         for this website
-                        <a href="https://github.com/Naatchi/miaGithub.io" className="text-blue-600 hover:underline"> click here! </a> <br/>
+                        <a href="https://github.com/Naatchi/miaGithub.io" style={{color:"blue"}}> click here! </a> <br/>
                         none of this art belongs to me i am just using it <br/>
                         for testing right now and it will be phased out soon <br/>
                     </a>
@@ -65,8 +65,8 @@ export default function Home() {
                 </section>
                 <section id="site">
                     <section id="abyss-1" style={{height: 2000, paddingTop: 1000}}>
-                        <div id="bg-container" className="relative h-screen" style={{backgroundColor: '#280003'}}>
-                            <div id="text-container" className="text-6xl text-white">
+                        <div id="bg-container" style={{backgroundColor: '#280003', height: '100vh', position: 'relative'}}>
+                            <div id="text-container" style={{color: "white", fontSize: "64px"}}>
                                 {`ScrollY-raw-val: ${scrollY}`}
                             </div>
                         </div>
