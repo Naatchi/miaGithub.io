@@ -56,7 +56,7 @@ export default function Home() {
                                         width: '100%',
                                         position: 'absolute',
                                         backgroundPosition: 'bottom center',
-                                        height: '1000px'
+                                        height: '1000px',
                                     }}
                                 />
                             )
@@ -65,10 +65,7 @@ export default function Home() {
                 </section>
                 <section id="site">
                     <section id="abyss-1" style={{height: 2000, paddingTop: 1000}}>
-                        <div id="bg-container" className="relative h-screen" style={{backgroundColor: '#280003'}}>
-                            <div id="text-container" className="text-white text-6xl">
-                                {`ScrollY-raw-val: ${scrollY}`}
-                            </div>
+                        <div id="bg-container" className="relative h-screen" style={{backgroundColor: '#280003', paddingBottom: 2546}}>
                         </div>
                     </section>
                 </section>
