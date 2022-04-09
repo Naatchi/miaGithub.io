@@ -47,7 +47,6 @@ export default function Home() {
                                     position: 'absolute',
                                     width: '100%',
                                     height: 1030,
-                                    transition: 'all 0.8s ease-in'
                                 }}
                             />
                         )
