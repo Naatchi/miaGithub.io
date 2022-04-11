@@ -1,6 +1,4 @@
 import {useEffect, useState} from "react";
-import {param} from "jquery";
-
 
 const Parallax = () => {
     const [scrollY, setScrollY] = useState(0)
